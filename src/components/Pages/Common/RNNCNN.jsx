@@ -84,7 +84,7 @@ const RNNCNN = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
             type="number"
-            defaultValue="1"
+            defaultValue="2"
             {...register("choice")}
             hidden
           />

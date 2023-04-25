@@ -104,6 +104,7 @@ const UploadCSV = () => {
           <option value="1">Deep-SE </option>
           <option value="2">RNN CNN</option>
           <option value="3">GPT2</option>
+          <option value="4">GPT2-Medium</option>
         </Select>
       </div>
       {isLoading && <Progress className=" my-2" size="lg" isIndeterminate />}
