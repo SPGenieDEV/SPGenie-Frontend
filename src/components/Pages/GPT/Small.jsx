@@ -96,6 +96,7 @@ const Small = () => {
             Enter User Story
           </label>
           <textarea
+            required
             rows="6"
             class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-xl border-[2px] border-gray-800 focus:ring-blue-500 focus:border-blue-500 "
             placeholder="As a < who>, I want <what (action)>, so that <why (business value)>"
@@ -137,7 +138,7 @@ const Small = () => {
             <div>
               <h1 className=" text-xl mb-4 text-black font-semibold">
                 Explain Result XAI :{" "}
-                <span className=" text-red-600">LIME Tool</span>
+                <span className=" text-red-600">Custom XAI Function</span>
               </h1>{" "}
               <iframe
                 srcDoc={XAI}

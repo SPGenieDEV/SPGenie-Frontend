@@ -123,32 +123,6 @@ const Traditional = () => {
           ) : null}
         </div>
 
-        {isExplain === true ? (
-          <button
-            class=" mt-3 bg-teal-500 hover:bg-teal-400 text-white font-bold py-2 px-4 border-b-4 border-teal-600 hover:border-teal-500 rounded"
-            onClick={() => explainResult()}
-          >
-            Explain Value
-          </button>
-        ) : null}
-
-        <div className=" my-3 ">
-          {XAI !== "" ? (
-            <div>
-              <h1 className=" text-xl mb-4 text-black font-semibold">
-                Explain Result XAI :{" "}
-                <span className=" text-red-600">LIME Tool</span>
-              </h1>{" "}
-              <iframe
-                srcDoc={XAI}
-                width="100%"
-                height="800px"
-                title="External Page"
-                sandbox="allow-same-origin allow-scripts"
-              ></iframe>{" "}
-            </div>
-          ) : null}
-        </div>
       </div>
     </div>
   );

@@ -137,7 +137,7 @@ const Medium = () => {
             <div>
               <h1 className=" text-xl mb-4 text-black font-semibold">
                 Explain Result XAI :{" "}
-                <span className=" text-red-600">LIME Tool</span>
+                <span className=" text-red-600">Custom XAI Function</span>
               </h1>{" "}
               <iframe
                 srcDoc={XAI}
