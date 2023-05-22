@@ -34,6 +34,10 @@ const Sidebar = () => {
 
             ),
             subMenus: [
+                {
+                    name: "User Story",
+                    link: "/dashboard",
+                  },
             ],
         },
         {
