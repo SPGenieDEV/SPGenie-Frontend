@@ -84,7 +84,7 @@ const Traditional = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
             type="number"
-            defaultValue="1"
+            defaultValue="6"
             {...register("choice")}
             hidden
           />

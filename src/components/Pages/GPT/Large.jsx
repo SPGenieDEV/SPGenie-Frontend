@@ -84,7 +84,7 @@ const Large = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
             type="number"
-            defaultValue="1"
+            defaultValue="5"
             {...register("choice")}
             hidden
           />

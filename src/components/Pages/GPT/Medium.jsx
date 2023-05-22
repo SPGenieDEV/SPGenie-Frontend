@@ -56,7 +56,7 @@ const Medium = () => {
     try {
       // Replace with your API endpoint and data format
       const response = await axios.post(
-        "http://127.0.0.1:5000/explainTest",
+        "http://127.0.0.1:5000/explainCustom",
         data
       );
       if (response.status === 200) {
